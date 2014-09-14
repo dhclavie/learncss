@@ -1,0 +1,40 @@
+
+body {
+    background:rgb(245, 239, 230);
+}
+
+.app {
+    background:rgb(255,255,255);
+    margin:0 auto;
+    width:70%;
+}
+
+.header {
+   background : rgb(0,179,81); 
+   margin:5px;
+   padding:20px;
+}
+
+.container{
+//    position:relative;
+    margin:5px;
+}
+
+.left_content {
+   background : blue; 
+   width:49%;
+   float:left;
+}
+
+.right_content {
+   background : red; 
+   float:right;
+   width:49%;
+}
+
+.footer{
+   clear:both;
+   background: purple;
+   margin:5px;
+   padding:10px;
+}
