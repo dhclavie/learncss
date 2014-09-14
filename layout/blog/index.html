@@ -5,37 +5,44 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>blog-layout</title>
-        <link href="blog.css" rel="stylesheet">
+        <link href="css/master.css" rel="stylesheet">
     </head>
+
     <body>
 
-        <div class="blog_layout">
+        <div class="container">
 
-            <div class="blog_content">
+                <div class="column sidebar">
 
-                <div class="index_pic">
+                    <header class="widget master-header">
 
-                </div> <!--index_pic-->
+                    <a class="thumbnail blog-photo" href="/">
+                        <img src="images/samueldeng_hd.jpg" width="60px" height="60px"/>
+                    </a>
 
-                <div class="post_list">
+                    <a class="blog-name">dhc.la.vie</a>
 
-                </div><!--post_list-->
+                    <a href="http://twitter.com/denghuancong" class="twitter">@denghuancong</a>
+                    </header>
 
-                <div class="post_index">
+                    <div class="sidebar-inner">
+                        <section class="widget about">
+                            
+                        </section>
+                        <footer class="master-footer"></footer>
+                    </div> <!--/. sidebar-inner -->
 
-                </div> <!--post_index-->
+                </div> <!-- /. sidebar -->
 
-            </div> <!--blog_content-->
+                <div class="column main">
 
-            <div class="blog_sidebar"> 
+                    <article class="post">
+                    </article>
+                    <div class="pagination"></div>
 
-            </div> <!--blog_sidebar-->
+                </div> <!-- /. main -->
 
-        </div> <!--blog_layout-->
-
-        <div class="footer">
-
-        </div> <!--footer-->
+        </div><!-- /.container-->
 
     </body>
 </html>
